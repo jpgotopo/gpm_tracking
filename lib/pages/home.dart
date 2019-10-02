@@ -162,7 +162,7 @@ class MenuPrincipalItems extends StatelessWidget {
 }
 
 class MenuSecundario extends StatelessWidget {
-  @override
+   
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 20.0),
@@ -176,6 +176,7 @@ class MenuSecundario extends StatelessWidget {
 }
 
 List<MenuSecundarioItems> menuSecundario = [
+  
   MenuSecundarioItems(
     title: 'Claridad en el llamado',
     icon: Icons.lightbulb_outline,

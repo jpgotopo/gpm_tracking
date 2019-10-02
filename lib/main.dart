@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gpm_tracking/pages/home.dart';
+
+import 'package:gpm_tracking/pages/inicio.dart';
 
 void main() => runApp(MyApp());
 
@@ -23,7 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
   final _layoutPage = [
-    Home(),
+    Inicio(),
   ];
 
    void _onTabItem(int index){
